@@ -65,7 +65,7 @@ const Products = () => {
 
   if (loading) {
     return (
-      <div className='min-h-screen m-auto pt-[20%] text-5xl bg-red-800 flex justify-center'>
+      <div className='min-h-screen m-auto pt-[20%] text-5xl bg-customGreen-light flex justify-center'>
         <div> Please Wait... </div>
         <div> Loading</div>
       </div>
