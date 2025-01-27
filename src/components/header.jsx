@@ -4,7 +4,7 @@ const Header = () => {
     return (
 
         <>
-            <div className='m-auto bg-pink-400 border-b-2'><h1 className='p-6'>
+            <div className='m-auto bg-customGreen border-b-2'><h1 className='p-6'>
 
                 <span  className='text-3xl font-semibold'>MY</span>
                 <span className='text-5xl'>PRODUCTS</span>

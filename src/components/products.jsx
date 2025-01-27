@@ -79,15 +79,15 @@ const Products = () => {
 
   return (
     <>
-      <div className=' m-auto justify-center items-center w-full flex bg-yellow-400 '>
+      <div className=' m-auto justify-center items-center w-full flex bg-customGreen-light '>
 
         <div>
-          <div className='rounded-lg bg-red-700 py-2 px-2 sm:w-52 text-center mx-auto my-9'>
+          <div className='rounded-lg bg-customGreen py-2 px-2 sm:w-52 text-center mx-auto my-9'>
             <button ><NavLink to={"/addProduct"}>Add Product</NavLink>
             </button>
             </div>
           <table className='w-auto lg:text-3xl '>
-            <thead className='bg-purple-500 md:h-14 '>
+            <thead className='bg-customGreen md:h-14 '>
               <tr className='text-center h-auto  items-center flex justify-center flex-wrap'>
                 <th className='w-1/12'>Sr#</th>
                 <th className='w-2/12'>Product</th>

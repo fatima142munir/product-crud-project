@@ -131,8 +131,8 @@ const AddProduct = () => {
 
   return (
     <>
-      <div className='w-full h-screen justify-center m-auto bg-pink-100'>
-        <form className='w-auto h-full justify-center text-center p-10 bg-yellow-300 m-auto' onSubmit={handleSubmit}>
+      <div className='w-full h-screen justify-center m-auto '>
+        <form className='w-auto h-full justify-center text-center p-10 bg-customGreen-light m-auto' onSubmit={handleSubmit}>
           <h1 className='md:text-4xl m-auto  w-full text-3xl p-5'>{id ? "Edit Product" : "Add Product"}</h1>
           <div >
             <label>Product Name:</label>
@@ -166,7 +166,7 @@ const AddProduct = () => {
               required
             />
           </div>
-          <button className='w-full bg-pink-400 p-2 mt-5' type="submit">{id ? "Update Product" : "Add Product"}</button>
+          <button className='w-full bg-customGreen p-2 mt-5' type="submit">{id ? "Update Product" : "Add Product"}</button>
         </form>
 
       </div>
